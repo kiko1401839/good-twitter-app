@@ -1,13 +1,16 @@
 import React from 'react';
+import MainTable from './Components/MainTable';
 
 function App() {
   return (
-    <div className="container mx-auto">
-      <header className="flex justify-center items-center text-3xl h-32 mx-5">
-        hello :D
-      </header>
-      <div className="flex justify-center">
-        content
+    <div className="bg-blue-50 min-h-screen" >
+      <div className="container mx-auto">
+        <header className="flex justify-center items-center text-3xl h-32 mx-5">
+          いいねした画像を並べるサイト
+        </header>
+        <div className="flex justify-center">
+          <MainTable />
+        </div>
       </div>
     </div>
   );
